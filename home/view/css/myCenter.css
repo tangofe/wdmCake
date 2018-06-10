@@ -1,0 +1,347 @@
+  body{
+  	background: #FFFFFF;
+  	margin:0;
+  	padding:0;
+  }
+  ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+  }
+  code {
+	color: #757575;
+	background-color: transparent;
+  }
+  a{
+    color: #757575;
+    text-decoration: none;
+  }
+  section{
+	overflow: hidden;
+	font: normal 14px/1.5 "微软雅黑",Verdana, Geneva, sans-serif;
+    color: #757575;/*
+  	min-height:2500px;*/
+  }
+  section a{
+	text-decoration: none;
+  }
+  #myCenterBox{
+    width: 1170px;
+    overflow: hidden;
+    margin:0 auto;
+    padding-top:30px; 
+  }
+  #myCenterBox .title_myCenter{
+    font-size: 12px;
+    margin-top: 0;
+  }
+  .title_myCenter span{
+    color: #BCBCBC;
+  }
+  #myCenterBox #main_box_myCenter{
+    width: 1170px;
+    overflow: hidden;
+    margin:30px auto;
+    float: left;
+  }
+  #main_box_myCenter #left_menu_myCenter{
+    width: 130px;
+    overflow: hidden;
+    float: left;
+  }
+  #left_menu_myCenter .left_menu_title{
+    width: 100%;
+    overflow: hidden;
+    float: left;
+  }
+  .left_menu_title h4{
+    width: 130px;
+    padding: 0 0 16px 0;
+    margin:0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    line-height: 14px;
+    float: left;
+  }
+  .left_menu_title div{
+    display: block;
+    width: 130px;
+    height: 30px;
+    padding: 0 0 18px 0;
+    font-size: 14px;
+    line-height: 14px;
+    float: left;
+  }
+  .left_menu_title div .dot{
+    width: 10px;
+    height: 12px;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    color: #cf0f25;
+  }
+  .left_menu_title div a{
+    color: #757575;
+    text-decoration: none;
+  }
+  #main_box_myCenter #right_menu_myCenter{
+    width: 1040px;
+    overflow: hidden;
+    padding: 0 0 0 30px;
+    float: left;
+  }
+  #right_menu_myCenter #user_info{
+    width: 100%;
+    overflow: hidden;
+    float: left;
+  }
+  #user_info h4{
+    margin:0;
+    font-size: 18px;
+    color: #000;
+  }
+  #user_info .information{
+    width: 580px;
+    height: 75px;
+    margin: 10px 0 10px 0;
+    font-size: 12px;
+    float: left;
+  }
+  .information div{
+    width: 270px;
+    height: 12px;
+    float: left;
+    line-height: 12px;
+    margin: 0 0 13px 0;
+  }
+  .information div .red{
+    height: 12px;
+    padding: 0 4px; 
+    background-color: #cf0f25;
+    color: #fff;
+  }
+  #user_info .userOrder{
+    width: 1010px;
+    overflow: hidden;
+    min-height: 60px;
+    margin: 0 0 40px 0;
+  }
+  .user_title{
+    width: 1010px;
+    height: 20px;
+    border-bottom: 1px solid #bcbcbc;
+    font-size: 16px;
+    line-height: 13px;
+    color: #000;
+    float: left;
+  }
+  .user_title .lump{
+    width: 4px;
+    height: 16px;
+    margin: 0 5px 0 0;
+    background-color: #cf0f25;
+    float: left;
+  }
+  .user_title a{
+    display: block;
+    float: right;
+    font-size: 12px;
+    color: #bcbcbc;
+  }
+  .user_text{
+    width: 100%;
+    
+    float: left;
+  }
+  .user_text table{
+    overflow: hidden;
+    width: 100%;
+  }
+  .user_text table tr:first-Child{
+    background-color: #fef5f5;
+    color: #bcbcbc; 
+  }
+   .user_text table tr{
+    height: 40px;  
+   }
+
+  .user_text table th{
+    font-size: 12px;     
+    font-weight: 500;
+    text-align: center;
+  }
+  #user_info .userCollect{
+    width: 1010px;
+    overflow: hidden;
+    margin: 0 0 40px 0;
+  }
+  #right_menu_myCenter #user_order{
+    width: 1010px;
+    overflow: hidden;
+    margin: 0 0 40px 0;
+  }
+  #user_order .page{
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .page .page_count{
+    height: 12px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 12px;
+  }
+  .page .page_number{
+    height: 32px;
+    width: 37px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+    margin: 15px auto 0 auto;
+    color: #fff;
+    background: #cf0f25;
+  }
+  .page_number a{
+    color: #fff;
+  }
+  #user_integral .intergral_box{
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 18px;
+}
+  }
+  #user_voucher .type_voucher{
+    width: 100%;
+    height: 46px;
+    float: left;
+  }
+  .type_voucher .type_sub1{
+    height: 26px;
+    width: 90px;
+    margin:10px 5px;
+    float: left;
+    background: #cf0f25;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 26px;
+  }
+  .type_sub1 a{
+    color: #fff;
+    text-decoration:none;
+  }
+  .type_voucher .type_sub2{
+    height: 26px;
+    width: 90px;
+    margin:10px 5px;
+    float: left;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 26px;
+  }
+  .type_sub2 a{
+    color: #757575;
+    text-decoration:none;
+  }
+  #user_voucher #input_voucher{
+    padding: 50px 0 20px 0;
+    float: left;
+  }
+  #input_voucher #submit_voucher_box{
+    width: 105px;
+    height: 25px;
+    color: #fff;
+    background: #DCDCDC;
+    border:0;
+    border-radius: 4px;
+    line-height: 17px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  #method_voucher .method_title{
+    height: 36px;
+    padding-top: 20px;
+    margin:  0 0 20px 0;
+    line-height: 16px;
+    clear: both;
+  }
+  #method_voucher img{
+    display: block;
+    width: 651px;
+    height: 99px;
+    margin:0 74px;
+    float: left;
+  }
+  #user_message #user_message_box{
+    margin: 50px 0px 0px;
+    overflow: hidden;
+    float: left;
+  }
+  #user_message_box span{
+    color: red;
+  }
+  #user_message_box .message_box_form{
+    width: 464px;
+    overflow: hidden;
+  }
+  .message_box_form li{
+    margin-top:3px;
+    float: left;
+  }
+  .message_box_form li .message_li_1{
+    width: 250px;
+    height: 34px;
+    font-size: 12px;
+    color: #000;
+    font-weight: 500;
+    text-align: right;
+    float: left;
+    padding:9px 0;
+  }
+  .message_box_form li .message_li_2{
+    width: 208px;
+    height: 34px;
+    padding: 8px 2px;
+    float: left;
+  }
+  .message_box_form li .message_li_3{
+    margin:13px  0 0 0;
+    width: 20px;
+    height: 13px;
+    float: left;
+  }
+  .message_box_form li code{
+    margin:10px 0 0 0;
+    font: 13.3333px Arial;
+    float: left;
+  }
+  .message_box_form li .message_li_4{
+    margin:7px 5px 0 0;
+    font-size: 12px;
+    color: black;
+    float: left;
+  }
+  .message_box_form li .message_li_5{
+    width: 123px;
+    height: 36px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    background:#BC002D;
+    color: #fff; 
+    border:0;
+    border-radius: 4px;
+  }
+  #user_changePwd .revise_point{
+    font-size: 12px;
+    clear: both;
+    padding-top:5px;
+    padding-bottom:50px;
+    margin: 5px 0;
+  }
+  #user_changePwd #changePwd_form_ul{
+    width: 488px;
+    overflow: hidden;
+  }

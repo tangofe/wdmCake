@@ -1,0 +1,644 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 413769 */
+    src: url('//at.alicdn.com/t/font_413769_slm0f2wo2zwwxw29.eot');
+    src: url('//at.alicdn.com/t/font_413769_slm0f2wo2zwwxw29.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_413769_slm0f2wo2zwwxw29.woff') format('woff'),
+    url('//at.alicdn.com/t/font_413769_slm0f2wo2zwwxw29.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_413769_slm0f2wo2zwwxw29.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.container {
+    width: 1200px;
+}
+header {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.navbar {
+    padding: 5px 0 25px;
+    border-bottom: 1px solid #bcbcbc;
+    background-color: #fff;
+}
+.navbar .navbar-brand {
+    margin: 7px 25px 0 0;
+    padding-top: 0;
+    padding-right: 0;
+}
+.navbar .side {
+    margin: 48px 0 0 0;
+}
+.navbar .side i {
+    color: #c2002d;
+}
+.navbar .nav {
+    margin: 50px 0 0 24px;
+}
+.navbar .nav li {
+    padding: 0 ;
+}
+.navbar .nav li a{
+    color: #757575;
+    padding: 0 12px;
+    border-right: 1px solid #757575;
+}
+.navbar .nav li a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+    color: #000;
+}
+.navbar .nav li:last-child a{
+    border-right:none;
+}
+.navbar .messageBox {
+   /* width: 175px;*/
+    width: 300px;
+}
+.navbar .messageBox .call {
+    margin: 26px 25px 0 0;
+}
+.navbar .messageBox ul {
+    font-size: 0;
+    margin: 7px 0;
+}
+.navbar .messageBox ul li {
+    line-height: 1;
+}
+.navbar .messageBox .login {
+    margin-left: -4px;
+}
+.navbar .messageBox .login li {
+    line-height: 12px;
+    font-size: 12px;
+}
+.navbar .messageBox .login li a {
+    color: #c2002d;
+}
+.navbar .messageBox .car {
+    margin: 0 0 0 20px;
+}
+.navbar .messageBox .car li a {
+    font-size: 12px;
+    color: #c2002d;
+}
+.navbar .messageBox .car li i {
+    font-size: 16px;
+    margin-right: 5px;
+}
+.navbar .messageBox .car li:last-child i {
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    color: #bcbcbc;
+}
+.navbar .messageBox .car li:last-child i:hover {
+    color: #c2002d;
+}
+/*轮播图*/
+
+.swiper-pagination {
+    position: absolute;
+    background-color: transparent;
+    width:338px !important;
+    left: 50% !important;
+    transform: translate( -50%,0);
+    padding: 5px;
+    height: 65px;
+    bottom: 20px;
+}
+/*
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    background: #3e3e3e;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    margin-right: 2px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #fff;
+}*/
+.swiper-pagination-bullet {
+    display: inline-block;
+    width: 100px;
+    height: 51px;
+    margin: 0 4px!important;
+    border-radius: 0;
+    opacity: 1;
+}
+.swiper-pagination-bullet.pagin {
+    width: 20px;
+    height: 20px;
+    background: #3e3e3e;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    margin:0 1px !important;
+    line-height: 20px;
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+    top: 40px;
+}
+.swiper-pagination-bullet-active.pagin {
+    background-color: #b61b1f;
+    border: none;
+}
+.swiper-pagination-bullet img{
+    width: 100px;
+    height: 51px;
+}
+.swiper-pagination-bullet-active {
+    width: 104px;
+    height: 55px;
+    background-color: transparent;
+    border: 2px solid hsla(0,0%,0%,.2);
+    position: relative;
+    top: -2px;
+}
+
+
+main {
+    margin-top: 104px;
+}
+/*main .main {
+    margin-top: 10px;
+}*/
+.index main .main ul {
+    font-size:0;
+    margin: 0;
+}
+.index main .main ul li {
+    width: 322px;
+    height: 310px;
+    margin: 5px 0 0 10px;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+.index main .main ul li .mask {
+    position: absolute;
+    width: 322px;
+    height: 310px;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    opacity: 0.1;
+}
+.index main .main ul li:hover .mask {
+    opacity: 0;
+}
+
+.index main .main ul li img {
+    width: 100%;
+}
+.index main .main ul li:first-child {
+    width: 510px;
+    height: 545px;
+    margin-left: 0;
+    margin-top: 10px;
+}
+.index main .main ul li:first-child .mask {
+    width: 510px;
+    height: 545px;
+}
+.index main .main ul li:nth-child(2) {
+    width: 650px;
+    height: 230px;
+    margin-top: 10px;
+}
+.index main .main ul li:nth-child(2) .mask {
+    width: 650px;
+    height: 230px;
+}
+.index main .main ul li:last-child {
+    margin-left: 5px;
+}
+ main .allAboutUs {
+    border-bottom: 1px solid #bcbcbc;
+    background-color: #F7F1EB;
+}
+ main .allAboutUs ul {
+    font-size: 0;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+ main .allAboutUs ul li {
+    padding: 0 80px 0 70px;
+    border-right: 1px solid #bcbcbc;
+    float: left;
+}
+ main .allAboutUs ul li h4{
+    font-size: 18px;
+    color: #000;
+}
+main .allAboutUs ul li a:first-child {
+    margin: 0;
+}
+main .allAboutUs ul li a{
+    display: block;
+    font-size: 14px;
+    color: #757575;
+    margin: 10px 0 0 0;
+    text-decoration: none;
+}
+main .allAboutUs ul li a:hover, main .allAboutUs ul li a:hover h4{
+    color: #83b842;
+    text-decoration: underline;
+    outline: 0 none;
+}
+ main .allAboutUs ul li:last-child {
+    text-align: center;
+    margin-left:50px;
+    padding: 0;
+    border-right: none;
+}
+ main .allAboutUs ul li:last-child  span {
+    display: block;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7a7a7a;
+}
+footer {
+    padding-top: 12px;
+    background-color: #F7F1EB;
+    height: 73px;
+}
+footer span {
+    font-size: 12px;
+    color: #bcbcbc;
+}
+footer img {
+    float: right;
+    width: 90px;
+    height: 34px;
+    margin-left: 5px;
+}
+footer .glory {
+    /*margin-right: 90px;*/
+}
+
+
+/* 企业服务 */
+.service main .location {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #757575;
+
+}
+.service main .serContent {
+    margin: 30px auto;
+}
+.service main .serContent ul li{
+    width: 130px;
+    height: 14px;
+    margin-bottom: 18px;
+    font-size: 14px;
+    line-height: 12px;
+}
+.service main .serContent ul li:first-child {
+    margin-bottom: 16px;
+    font-weight: 600;
+    color: #000;
+    line-height: 14px;
+}
+.service main .serContent ul li:first-child a {
+    color: #000;
+}
+.service main .serContent ul li a {
+    color: #757575;
+    text-decoration: none;
+}
+.othLink main .serContent div>ul li{
+    width: 130px;
+    height: 14px;
+    margin-bottom: 18px;
+    font-size: 14px;
+    line-height: 12px;
+}
+.othLink main .serContent div>ul li:first-child {
+    margin-bottom: 16px;
+    font-weight: 600;
+    color: #000;
+    line-height: 14px;
+}
+.othLink main .serContent div>ul li:first-child a {
+    color: #000;
+}
+.othLink main .serContent div>ul li a {
+    color: #757575;
+    text-decoration: none;
+}
+.service main .serContent .article {
+    width: 1040px;
+    height: auto;
+    padding: 0 0 0 40px;
+}
+.service main .serContent .article .title{
+    height: 20px;
+    margin: 20px 0;
+    border-bottom: 1px solid #bcbcbc;
+    /*border-left: 4px solid #cf0f25;*/
+    font-size: 16px;
+    line-height: 13px;
+    color: #000;
+}
+.service main .serContent .article .title::before {
+    content: '|';
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    width: 4px;
+    height: 16px;
+    margin: 0 5px 0 0;
+    color: #cf0f25;
+    background-color: #cf0f25;
+}
+.service main .serContent .article article{
+    margin: 20px 0 0 0;
+    color: #868686;
+    line-height: 25px;
+}
+.service main .serContent .article article .form-group span::before {
+    content: '*';
+    color: red;
+}
+
+/*订单页*/
+.order main{
+    padding-top: 40px;
+}
+.order section {
+    padding: 20px 0;
+}
+.order section .title {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 13px;
+    color: #000;
+    border-bottom: 1px solid #bcbcbc;
+}
+.order section .title::before {
+    content: '|';
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    width: 4px;
+    height: 16px;
+    margin: 0 5px 0 0;
+    color: #cf0f25;
+    background-color: #cf0f25;
+}
+.order .addressMsg .title span{
+    color: #757575;
+    font-size: 12px;
+    line-height: 18px;
+}
+.order .addressMsg .title span:first-child {
+    margin-left: 12px;
+}
+.order .addressMsg .title span:first-child a {
+    color: #757575;
+}
+.order .addressMsg .title span:last-child {
+    margin-right: 2px;
+}
+.order .addressMsg .title span:last-child a {
+    color: red;
+}
+.order section .msgBox {
+    padding: 20px 10px;
+}
+.order .addressMsg .msgBox .form-group:nth-child(even) {
+    width: 590px;
+}
+.order .addressMsg .msgBox .msgAddress span {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.order .addressMsg .msgBox .msgAddress .updateMsg {
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.order .addressMsg .msgBox label {
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #757575;
+}
+
+.order .addressMsg .msgBox label>input {
+    margin-right: 10px;
+}
+.order .addressMsg .msgBox .form-group label {
+    width: 120px;
+    height: 30px;
+    padding: 10px 0;
+    font-weight: 500;
+    text-align: right;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #757575;
+}
+.order .addressMsg .msgBox .form-group label::before {
+    content: '*';
+    color: red;
+    display: inline-block;
+    padding-right: 5px;
+}
+.order .addressMsg .msgBox .form-group:nth-child(6) label::before {
+    content: '';
+}
+.order .addressMsg .msgBox .form-group span {
+    padding-left: 18px;
+    color: #cf0f25;
+    font-size: 12px;
+    line-height:30px;
+    /*background: url(../images/orderform/false.gif) no-repeat;*/
+}
+.order .addressMsg .msgBox .form-group:nth-child(6) span {
+    padding-left: 0;
+    background: none;
+    color: #757575;
+}
+.order .addressMsg .msgBox .updateMsg:hover, .order .addressMsg .msgBox .deleteMsg:hover  {
+    color: #cf0f25;
+}
+
+.order .beizu label,.order .beizu textarea {
+    display: block;
+    width: 100%;
+    color: #757575;
+    font-weight: normal;
+}
+.order .beizu textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 12px;
+    color: #bcbcbc;
+    border: 1px solid #757575;
+    resize: none;
+    height: 62px;
+}
+
+.order .orderPrice {
+    margin: 10px 0;
+}
+.order .orderPrice .priceBox {
+    border-top: 1px dashed #bcbcbc;
+}
+.order .orderPrice span {
+    display: block;
+    font-size: 14px;
+    text-align: right;
+    color: #000;
+}
+.order .orderPrice span:first-child {
+    margin-top: 10px;
+}
+.order .orderPrice span i {
+    font-style: normal;
+    color: #cf0f25;
+}
+.order .orderPrice span:last-child i {
+    font-size: 24px;
+    margin-left: 15px;
+}
+.order .submit {
+    width: 123px;
+    height: 36px;
+    border: none;
+    background-color: #cf0f25;
+    font: 500 16px "微软雅黑";
+    line-height: 36px;
+    color: #fff;
+    cursor: pointer;
+    margin: 30px 0;
+    text-align: center;
+}
+.order .payStyle .msgBox label,.order .billStyle .msgBox label  {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #757575;
+    line-height: 1.5;
+    font-weight: normal;
+}
+.order .payStyle .msgBox label>input {
+    margin-right: 10px;
+    margin-top: 0 !important;
+}
+
+.order .payStyle .msgBox .allPay ul {
+    margin-left: 20px;
+}
+.order .payStyle .msgBox .allPay ul li {
+    margin: 5px 2px;
+    border: 1px dotted #FFF;
+    cursor: pointer;
+    padding: 5px 5px 0 5px;
+    line-height: 40px;
+    width: 214px;
+}
+.order .payStyle .msgBox .allPay ul li input {
+    margin: 15px 10px 0 0;
+}
+
+.order .billStyle .msgBox label input{
+    margin-top: 0;
+    margin-right: 5px;
+}
+
+.order .goodForm .msgBox .goodBox {
+    margin: 10px auto;
+}
+.order .goodForm .msgBox .goodBox table th{
+    padding: 10px 0;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: text-top;
+    border-bottom: 1px dotted #bcbcbc;
+}
+.order .goodForm .msgBox .goodBox table td{
+    height: 50px;
+    padding: 8px;
+    font-weight: 500;
+    text-align: center;
+    color: #000;
+    border-bottom: 1px dotted #bcbcbc;
+}
+.order .goodForm .msgBox .goodBox table td input{
+    width: 120px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #bcbcbc;
+    text-align: center;
+    font-size: 14px;
+    color: #757575;
+}
+.order .goodForm .msgBox .goodBox table td img {
+    width: 80px;
+}
+.order .goodForm .msgBox .goodBox table td .dropdown ul {
+    min-width: 120px;
+    left: 33px;
+    padding: 0;
+    margin:0;
+    border-radius: 0;
+}
+.order .goodForm .msgBox .goodBox table td .dropdown ul li a{
+    padding: 0;
+    width: 120px;
+    text-align: center;
+    margin-right: 0;
+    font-size: 12px;
+    color: #757575;
+}
+.order .goodForm .msgBox .goodBox table td .dropdown ul li a:hover {
+    background-color: #fff;
+    color: #cf0f25;
+}
+.order .goStyle .msgBox label {
+    font-size: 14px;
+    color: #757575;
+    font-weight: normal;
+}
+.order .goStyle .msgBox .goTime {
+    margin-top: 10px;
+}
+.order .goStyle .msgBox .goTime label input:first-child{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.othLink main .serContent ul {
+    float: top;
+    clear: both;
+}
+.othLink article ul {
+    width: 790px;
+    margin-top: 30px;
+}
+.othLink article ul li {
+    width: 196px;
+    height: 160px;
+    float: left;
+    text-align: center;
+}
+.othLink article ul li a{
+    color: #757575;
+    text-decoration: none;
+}
+.othLink article ul li a span{
+    display: block;
+}
